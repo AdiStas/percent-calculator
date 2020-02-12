@@ -1,0 +1,138 @@
+body {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+
+	background-color: #beeb9f;
+
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+.visually-hidden {
+	position: absolute;
+
+	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	border: 0;
+  	padding: 0;
+
+  	white-space: nowrap;
+
+  	clip-path: inset(100%);
+  	clip: rect(0 0 0 0);
+  	overflow: hidden;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 15px;
+
+	text-align: center;
+
+	font-size: 22px;
+	line-height: 26px;
+	color: #fff;
+	background-color: #468966;
+}
+
+.calculate {
+	padding: 0 15px;
+	margin-bottom: 30px;
+
+	text-align: center;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	display: inline-block;
+	padding: 5px 10px;
+
+	border: 2px solid #beeb9f;
+	border-radius: 20px;
+	color: #79bd8f;
+
+	outline: none; 
+	cursor: pointer;
+	-webkit-appearance: none;
+	transition: all .5s;
+}
+
+input:hover,
+input:focus {
+	border: 2px solid #468966;
+}
+
+.alert-text {
+	color: #d90000;
+	text-transform: uppercase;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+ 	-webkit-appearance: none;
+	margin: 0;
+}
+
+.result-value {
+	min-height: 20px;
+	margin: 30px 0;
+}
+
+button {
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	padding: 10px 15px;
+
+	text-transform: uppercase;
+
+	background-color: #468966;
+	color: #fff;
+	border: 2px solid #468966;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+button:hover,
+button:focus {
+	background-color: #fff;
+	color: #468966;
+}
+
+button:active {
+	opacity: 0.3;
+}
+
+.count-btn {
+	margin-bottom: 20px;
+}
+
+footer {
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #468966;
+}
+
+footer span {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+footer a {
+	text-decoration: none;
+}
